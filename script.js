@@ -18,6 +18,8 @@ function onAddItemSubmit(e) {
     return;
   }
 
+  // Check for edit mode
+
   if (isModeEdit) {
     const itemToEdit = itemList.querySelector(".edit-mode");
 
